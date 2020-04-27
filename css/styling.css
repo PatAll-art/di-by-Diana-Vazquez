@@ -1,0 +1,18 @@
+h1{
+		font-size: 20px; 
+		color: #D3877D;
+		text-align: center;
+	}
+p{
+		text-align: center;
+		font-size: 20px;
+		color: #E4A49B;
+	}
+a{
+		font-size: 10px;
+		color: #E4A49B;
+
+footer {
+	background-color: red;
+
+}
