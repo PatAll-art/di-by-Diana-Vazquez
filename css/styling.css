@@ -3,6 +3,7 @@ body{
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	align-items: middle;
+	font-weight: 100;
 }
 
 .imghead {
@@ -13,46 +14,91 @@ body{
   	padding: 20px;
 }
 
-.iglink {
-	text-align: center;
-	padding: 70px 0;
+header img{
+	width: 300px;
+	height: 100px;
 }
 	
-
-
 header {
 	background-color: #D3877D;
 	text-align: center;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
-	padding: 20px;
+	padding: px;
 }
 
-h1{
+
+h1, h2{
 		font-size: 20px; 
 		color: #D3877D;
 		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		font-weight: normal; 
 	}
 p{
 		text-align: center;
 		font-size: 20px;
 		color: #E4A49B;
-	}
-a{
-		font-size: 10px;
-		color: #E4A49B;
+		font-family: 'Raleway', sans-serif;
 	}
 
-h2{
-		font-size: 20px; 
-		color: #D3877D;
-		text-align: center;
-		text-decoration: underline;
-}
+
 
 footer {
 	margin-bottom: 10px;
 	padding: 16px;
-	 
 }
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #F7E1D4;
+  padding: 10px 5px;
+}
+
+.header a {
+  float: left;
+  color: #D3877D;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 25px;
+  color: #D3877D;
+  font-weight: bold;
+}
+.header a:hover {
+  	opacity: .5;
+	background-color: transparent;
+}
+
+.header a.active {
+  background-color: transparent;
+  color: #D3877D;
+  }
+
+ .header-right {
+  float: middle;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: center;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: center;
+  }
+
+
+
+
